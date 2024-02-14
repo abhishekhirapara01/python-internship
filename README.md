@@ -1,1 +1,2 @@
-# python-week1
+# python-practical
+learn and practice basic to advance python programming
