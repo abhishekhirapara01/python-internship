@@ -1,11 +1,12 @@
 #Find all possible combination of a list with three elements
 #--------
 number = [12,24,36]
-
-def find_combination(num):
-    if len(num) == 0:
-        return []
-    else:
-        return 
-print(find_combination(number))
-
+lst=[]
+for j in number:
+    lst.append([j])
+for i in range(0,len(number)):
+    for k in range(i+1,len(number)):
+        lst.append([number[i],number[k]])
+lst.append(number)
+print(lst)
+  
